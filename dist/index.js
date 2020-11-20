@@ -3,7 +3,7 @@
  * description: Fetch with request id.
  * homepage: https://github.com/afeiship/next-fetch-with-request-id
  * version: 1.0.0
- * date: 2020-11-20 20:57:05
+ * date: 2020-11-20 20:58:39
  * license: MIT
  */
 

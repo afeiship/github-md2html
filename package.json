@@ -40,5 +40,11 @@
   "dependencies": {
     "@jswork/next-deep-assign": "^1.0.0",
     "@jswork/next-guid": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "fetch",
+    "request",
+    "id"
+  ]
 }
