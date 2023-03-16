@@ -1,6 +1,6 @@
 {
   "name": "@jswork/github-md2html",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert Markdown to HTML effortlessly with github-md2html.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
