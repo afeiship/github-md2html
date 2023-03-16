@@ -58,5 +58,8 @@
     "github",
     "html",
     "markdown"
-  ]
+  ],
+  "dependencies": {
+    "@octokit/core": "^4.2.0"
+  }
 }
