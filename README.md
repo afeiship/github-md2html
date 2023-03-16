@@ -1,5 +1,5 @@
-# next-fetch-with-request-id
-> Fetch with request id.
+# github-md2html
+> Convert Markdown to HTML effortlessly with github-md2html.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -7,26 +7,30 @@
 [![download][download-image]][download-url]
 
 ## installation
-```bash
-npm install -S @jswork/next-fetch-with-request-id
+```shell
+npm install @jswork/github-md2html
 ```
 
 ## usage
 ```js
-import '@jswork/next-fetch-with-request-id';
+import md2html from '@jswork/github-md2html';
+
+const mdstr = fs.readFileSync('Hello **world**');
+const html = md2html(mdstr);
+// <p>Hello <strong>world</strong></p>
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-fetch-with-request-id/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/github-md2html/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-fetch-with-request-id
-[version-url]: https://npmjs.org/package/@jswork/next-fetch-with-request-id
+[version-image]: https://img.shields.io/npm/v/@jswork/github-md2html
+[version-url]: https://npmjs.org/package/@jswork/github-md2html
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-fetch-with-request-id
-[license-url]: https://github.com/afeiship/next-fetch-with-request-id/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/github-md2html
+[license-url]: https://github.com/afeiship/github-md2html/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-fetch-with-request-id
-[size-url]: https://github.com/afeiship/next-fetch-with-request-id/blob/master/dist/next-fetch-with-request-id.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/github-md2html
+[size-url]: https://github.com/afeiship/github-md2html/blob/master/dist/github-md2html.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-fetch-with-request-id
-[download-url]: https://www.npmjs.com/package/@jswork/next-fetch-with-request-id
+[download-image]: https://img.shields.io/npm/dm/@jswork/github-md2html
+[download-url]: https://www.npmjs.com/package/@jswork/github-md2html
